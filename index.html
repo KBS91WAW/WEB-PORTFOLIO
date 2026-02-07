@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing projects and expertise">
+    <title>Portfolio - Krzysztof Bieda-Sawicki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header class="site-header">
+        <nav class="navigation" aria-label="Main navigation">
+            <h1 class="brand">KBS</h1>
+            <ul class="menu">
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#reach-out">Reach Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="content" role="main">
+        <section id="intro" class="banner" aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Hi, I'm Krzysztof Bieda-Sawicki</h2>
+            <p>Senior Software Engineering C# Developer</p>
+        </section>
+
+        <section id="about-me" class="bio" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>I'm a dedicated Software Engineering student at the University of Ottawa with a strong focus on C# and .NET development. With hands-on experience in building desktop and backend applications, I specialize in object-oriented programming, software architecture, and working with relational databases.</p>
+            <p>My academic journey has equipped me with solid foundations in data structures, algorithms, and software design patterns. I'm passionate about writing clean, maintainable code and continuously expanding my expertise in the Microsoft technology stack and modern development practices.</p>
+        </section>
+
+        <section id="work" class="portfolio-items" aria-labelledby="work-heading">
+            <h2 id="work-heading">Professional Experience</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Senior Software Engineer - Altium Poland</h3>
+                    <p class="project-date">September 2014 - Present</p>
+                    <a href="altium-project.html" class="project-link">View Details →</a>
+                </article>
+                <article class="project-card">
+                    <h3>Senior Development Engineer - Reamda Ltd</h3>
+                    <p class="project-date">January 2015 - September 2024</p>
+                    <a href="reamda-project.html" class="project-link">View Details →</a>
+                </article>
+                <article class="project-card">
+                    <h3>ROCKSAFE Project - Sensor Integration</h3>
+                    <p class="project-date">International Collaboration</p>
+                    <a href="rocksafe-project.html" class="project-link">View Details →</a>
+                </article>
+                <article class="project-card">
+                    <h3>Control Systems & Robotics Projects</h3>
+                    <p class="project-date">Various Projects</p>
+                    <a href="control-systems-project.html" class="project-link">View Details →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="expertise" class="capabilities" aria-labelledby="expertise-heading">
+            <h2 id="expertise-heading">Technical Expertise</h2>
+            <ul class="skill-list">
+                <li>C#</li>
+                <li>.NET Framework</li>
+                <li>ASP.NET</li>
+                <li>SQL Server</li>
+                <li>Entity Framework</li>
+                <li>Object-Oriented Programming</li>
+                <li>LINQ</li>
+                <li>Windows Forms</li>
+                <li>WPF</li>
+                <li>RESTful APIs</li>
+                <li>Git & Version Control</li>
+                <li>Visual Studio</li>
+                <li>Relational Databases</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Software Design Patterns</li>
+                <li>Agile & Scrum</li>
+            </ul>
+        </section>
+
+        <section id="education" class="education" aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+            
+            <div class="education-section">
+                <h3>Master of Science in Software Engineering</h3>
+                <p class="institution">Warsaw University of Technology, Electrical Faculty</p>
+                <p class="education-date">2016 - 2018 | Grade: Excellent 6</p>
+                <div class="education-details">
+                    <p>Extramural studies focused on advanced software engineering principles, architecture, and modern development methodologies.</p>
+                    <p><strong>Thesis:</strong> "Feature generation for Transfer Learning Technique in face verification problem"</p>
+                </div>
+            </div>
+
+            <div class="education-section">
+                <h3>Master of Science in Automation Control and Robotics</h3>
+                <p class="institution">Warsaw University of Technology, Electrical Faculty</p>
+                <p class="education-date">2014 - 2015 | Grade: Excellent 6</p>
+                <div class="education-details">
+                    <p>Full-time studies specialized in control systems, robotics, and embedded systems with focus on signal processing and automation.</p>
+                    <p><strong>Thesis:</strong> "Development and performance analysis of the automatic parameter selection algorithm for the classical FIR filter on the example of a power system interference removal filter"</p>
+                </div>
+            </div>
+
+            <div class="education-section">
+                <h3>Bachelor of Engineering in Automation Control and Robotics</h3>
+                <p class="institution">Warsaw University of Technology, Electrical Faculty</p>
+                <p class="education-date">2010 - 2014 | Grade: Excellent 6</p>
+                <div class="education-details">
+                    <p>Full-time studies providing foundation in automation, control theory, robotics, and embedded systems programming.</p>
+                    <p><strong>Thesis:</strong> "Battery management system for LiFePO4 pack for backup power system in traction vehicle model"</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reach-out" class="contact-form" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Get In Touch</h2>
+            <form aria-label="Contact form">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your email" autocomplete="email" required aria-required="true">
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Message" required aria-required="true"></textarea>
+                
+                <button type="submit" aria-label="Send message">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <p>&copy; 2026 KBS. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
